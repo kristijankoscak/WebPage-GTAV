@@ -1,0 +1,78 @@
+
+.wl-container{
+    position:absolute;
+    height:80%;
+    width:70%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 10%;
+    left: 25%;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    border:1px solid black;
+}
+
+.wl-welcome-header{
+    position: relative;
+    display:block;
+    height:10%;
+    background-color: rgba(0, 0, 0, 0.2);
+    width:100%;
+    text-align: center;
+}
+.wl-welcome-header h2{
+    padding-top:12px;
+    color:white;
+}
+
+.wl-info-grid{
+    position: absolute;
+    display:inline-flex;
+    
+    width:100%;
+    height:90%;
+}
+
+.wl-info{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+    margin-left:0.2%;
+    margin-right:0.2%;
+    width:32.93%;
+    height:100%;
+}
+.wl-info p ,label{
+    margin-top:10px;
+    color:white;
+    font-size: 18px;
+
+}
+.wl-info input{
+    font-size: 15px;
+}
+textarea{
+    background: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color:white;
+    height:5%;
+    max-height: 7%;
+    width: 95%;
+    max-width: 80%;;
+}
+[type="checkbox"]{
+    width: 10%;
+    margin-left:5%;
+    float:left;
+}
+
+
+.wl-info-submit{
+    position:absolute;
+    bottom: 0;
+    height:13%;
+    width:100%;
+
+}
